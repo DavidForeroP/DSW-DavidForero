@@ -81,3 +81,8 @@ footer{
 .menu li:hover .submenu{
     display: block;
 }
+@media screen and (max-width:768px) {
+    header{
+        flex-direction: column;
+    }
+}
